@@ -5,7 +5,7 @@ from urllib.request import urlopen
 
 SITE = os.environ['site']
 EXPECTED = os.environ['expected']
-PHONE = os.environ['phone']  # Must be in this format '+15556668888'
+PHONE = os.environ['phone']  # Must be in this format '+16823090948'
 
 sns = boto3.client('sns')
 
